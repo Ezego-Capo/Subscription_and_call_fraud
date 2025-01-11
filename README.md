@@ -34,7 +34,7 @@ Data preprocessing ensures the integrity of the dataset. Raw telecom data often 
 - **Removed Null and Duplicate Records**: Ensuring the data is complete and free of redundancy helps avoid errors during model training and analysis.
 - **Aggregated Data to Identify Patterns**: Aggregating by `caller_id` and other relevant attributes enables me to spot irregularities, such as a high frequency of short-duration calls, which is indicative of fraud.
 
-### SQL Query Example:
+### SQL Query:
   - I used the following query to detect suspicious behavior:
     ```sql
           SELECT caller_id, COUNT(*) AS call_count, AVG(call_duration) AS avg_duration
@@ -58,7 +58,7 @@ With clean and preprocessed data, I built a **fraud detection model** using **Ra
 
 - **Model Training**: I trained the **Random Forest** model using labeled data, where the fraud label (fraudulent or not) was known. This helps the model learn from past data to predict new instances of fraud.
   
-  ### Python Code Example:
+  ### Python Code:
      ```python
           from sklearn.ensemble import RandomForestClassifier
           from sklearn.model_selection import train_test_split
