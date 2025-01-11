@@ -4,7 +4,7 @@ A functional **fraud detection system** integrated with a **visualization tool**
 
 ## 1. **Data Collection**
 
-**Objective**: Gather relevant data to detect telecom fraud.
+**Objective**: Gather relevant data and build a system that detects and prevents telecom fraud, such as subscription fraud, and call forwarding fraud, using Python, SQL, and visualization tools.
 
 ### Why This Step Is Critical:
 The foundation of the fraud detection system relies on **telecom data**—specifically **Call Detail Records (CDR)**. These records capture the detailed metadata of each call made in a telecom network. By collecting this data, I ensure that the system has access to real-world behavior patterns that can be analyzed for anomalies indicative of fraud.
