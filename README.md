@@ -18,7 +18,6 @@ The foundation of the fraud detection system relies on **telecom data**—specif
 - `caller_id`, `receiver_id`, `timestamp`: These identifiers allow for the tracking of suspicious activities over time.
 
 ### Data Sources:
-- **Kaggle Telecom Datasets**: Real-world datasets from platforms like Kaggle, which contain telecom records that can be used to train the fraud detection model.
 - **Synthetic Data**: Where necessary, I generated synthetic data using Python’s Faker library, which simulates fraudulent and non-fraudulent call behavior.
 
 ---
